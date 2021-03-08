@@ -1,0 +1,158 @@
+@media(min-width:600px){
+.container1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.con2{
+  height: 400px;
+  /* style="max-width:600px; height:400px" */
+  max-width:600px; 
+}
+#about{
+  height: 40vh;
+}
+
+.container1 div{
+  border: 2px solid;
+  padding: 10px;
+  height: 250px;
+}
+
+.container1-box{
+  width: 30%;
+}
+
+}
+
+
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 250px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.wrapper > div {
+  border: 2px solid;
+  text-align: center;
+  padding: 15px;
+  /* font-size: 150px; */
+} */
+
+#about {
+  padding-top: 60px;
+}
+#about .containers {
+  background: #191919;
+}
+#about .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+#about .about-des {
+  justify-items: center;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+#about .btn {
+  margin-top: 30px;
+}
+
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Showcase */
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: url('../images/img3.jpg') no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+#showcase h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 25vh;
+}
+
+
+@media screen and (max-width: 580px) {
+  .hide-on-small {
+    display: none;
+  }
+
+  #showcase {
+    height: 50vh;
+  }
+
+  #showcase .container {
+    margin-top: 15vh;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  #showcase h2 {
+    font-size: 1.5rem;
+  }
+
+ 
+  .con2{
+    height: 30px;
+    /* style="max-width:600px; height:400px" */
+    max-width:600px; 
+    height:250px;
+  }
+  .con h1{
+    display: none;
+  }
+  .container1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+  }
+  .container1 h3{
+    font-size: 15px;
+  }
+  .container1 p{
+    display: none;
+  }
+  .container1 div{
+    border: 1px solid;
+    padding: 10px;
+    height: 150px;
+  }
+  
+  .container1-box{
+    width: 30%;
+  }
+  #services {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    overflow-y: hidden;
+}
+}
+
+@media screen (min-width:600px){
+
+}
+
+
